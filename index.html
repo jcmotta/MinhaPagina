@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Curso Web</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body >
+   <nav class ="menu">
+   	  <ul class="nav justify-content-end">
+   	     <li class="nav-item">
+   	        <a href="#sobre" class="nav-link" >Sobre
+   	        </a>
+   	    </li>
+   	    <li class="nav-item">
+   	       <a href="#portifolio" class="nav-link">Portifolio
+   	       </a>
+   	    </li>
+   	    <li class="nav-item">
+   	    	<a href="#contato" class="nav-link">Contato
+   	    	</a>
+   	    </li>
+   	  </ul>      
+   </nav>
+   <div class="jumbotron home">
+   	 <div class="center">
+   	     <h1>Curso de Web</h1>
+   	     <hr class="my-4"/>
+   	     <p class="lead text-light">
+   	     Desenvolvimento web para o mercado de trabalho
+   	     </p>
+   	     <!--<button>
+   	     	Conheça-me!
+   	     </button> -->
+   	     <!--<input type="button" value="Conheça-me" > -->
+   	     <a href="#sobre" class="btn btn-primary conheca-me">Conheça-me!</a>
+
+   			
+   	</div>
+   	</div>
+   	<div class="container">
+   	   <section id ="sobre">
+   	   	   <h1 class="center">Sobre</h1>
+   	   	   <div class="row mt-4">
+   	   	     <div class="col-sm-6 center">
+                 <img src ="imagens/Foto_Perfil.jpg" class ="profile">  
+   	   	      </div>
+   	   	      <div class="col-sm-6">
+   	   	      <p class="title">Metas</p>
+   	   	      <ul>
+   	   	            <li>Fomentar o uso da web</li>
+   	   	            <li>Capacitar profissionais para o mercado</li>	
+   	   	      </ul>
+   	   	      <p class="title">Prioridade</p>
+   	   	      <ol>
+   	   	           <li>Café</li>
+   	   	      </ol>    	
+   	   	      </div>
+         </div>
+    </section>
+    
+</div> 
+<section id="contato" class="mt-4">
+      <div class="container"> 
+         <h1 class="center text-light">Contatos</h1>
+         <form class="mt-3">
+            <div class="form-group">
+                <input class="form-control" type=" text" placeholder="Fulano" required="required">
+            </div>   
+
+            <div class="form-group">
+         	     <input class ="form-control" type="email" placeholder="fulano@email.com">
+         	</div>
+
+         	<div class="form-group">
+         	    <textarea class="form-control" placeholder="mensagem">
+         	    </textarea>
+         	</div>
+         	   
+         	<div class="row">
+         		<div class="col-6">
+         		    <input class="btn btn-primary" type="submit" value="Enviar">
+         		</div>    
+         		<div class="col-6 text-right">
+         		    <input class="btn btn-secondary" type="reset" value="Limpar">
+         		</div> 
+         	</div>
+         </form>
+     </div>    
+    	
+    </section>
+
+    <footer class="footer mt-2"> 
+       <p class="center">
+    	  Desenvolvido com <span class="text-danger">&hearts;
+    	  </span>por <span class ="dev text-primary">curso web</span>.
+       </p>
+   </footer>   
+</body>
+</html>
