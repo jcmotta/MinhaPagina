@@ -1,3 +1,3 @@
 # Meu portifólio
 
-Este projeto é a meu site pessoal.
+Este projeto é meu site pessoal.
